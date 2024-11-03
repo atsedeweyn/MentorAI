@@ -1,81 +1,76 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.area1{
+    margin-top: 390px;
+    height: 60px;
+    width: 550px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.area2{
+    width: 550px;
+    border: 0px;
+    height: 500px;
 }
 
-/* body {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    background-color: #f0f0f0;
-} */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
 
 header {
+<<<<<<< HEAD
     padding: 20px 0;
     width: 100%;
     text-align: center;
     background-color: #6EF085;
     color: black;
-}
-
-main {
-    /* flex: 1; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    /* width: 50%;
-    margin: 0 auto; */
-    height: 93vh;
-    background-color: #f0f0f0;
-}
-
-p {
-    font-size: 23px;
-    line-height: 2;
+=======
+    background-color: green;
+    color: white;
     text-align: center;
 }
 
-#link_button {
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    padding: 10px 20px;
-    display: flex;
-    width: 50%;
+nav {
+    background-color: gray;
+    color: white;
+
 }
 
-#yt_link {
-    border: none;
-    outline: none;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 15px;
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+>>>>>>> 7f16417186e9f8ccfb943e26e10c7709c6601bfb
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-}
-
-#start_button {
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-    padding: 10px;
-    background-color: black;
-    color: white;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
-#start_button:disabled {
-    background-color: grey;
-    color: white;
-    cursor: not-allowed;
 }
