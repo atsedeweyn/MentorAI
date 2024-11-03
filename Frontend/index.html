@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/front_page.css">
     <title>PersonaPlay</title>
+    <link rel="stylesheet" href="../frontend/static/css/styles.css">
 </head>
 <body>
     <header>
         <h1>Persona Play</h1>
     </header>
-
+    
     <main>
         <p>
             Put in a channel name below and you can talk to your favorite YouTuber! 
         </p>
+        
+        <div id="channel-input-container">
+            <form action="" method="post" id="link_button">
+                <input type="text" 
+                       id="channel-input" 
+                       placeholder="Enter a channel name here." 
+                       required>
+                <button type="submit" 
+                        id="process-channel-btn" 
+                        disabled>&rarr;</button>
+                <span id="input_help">No channel name provided.</span>
+            </form>
+        </div>
 
-        <form action="" method="post" id="link_button">
-            <input type="text" id="yt_link" placeholder="Enter a channel name here." required> 
-            <button type="submit" id="start_button" disabled>&rarr;</button>
-            <span id="input_help">No channel name provided.</span>
-        </form>
+        <div id="chat-container"></div>
+
+        <div id="input-container">
+            <input type="text" 
+                   id="message-input" 
+                   placeholder="Type your message..." 
+                   disabled>
+            <button id="send-button" disabled>Send</button>
+        </div>
     </main>
 
-    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            window.chatApp = new ChatApp();
+        });
+    </script>
+    <script src="../frontend/static/js/main.js"></script>
 </body>
 </html>
