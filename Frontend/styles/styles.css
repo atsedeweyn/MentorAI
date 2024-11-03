@@ -12,8 +12,7 @@
 }
 .area2{
     width: 550px;
-    border-radius: 10px;
-    border: 2px solid black;
+    border: 0px;
     height: 500px;
 }
 
@@ -25,13 +24,13 @@ body {
 }
 
 header {
-    background-color: #f4f4f4;
-
+    background-color: green;
+    color: white;
     text-align: center;
 }
 
 nav {
-    background-color: #333;
+    background-color: gray;
     color: white;
 
 }

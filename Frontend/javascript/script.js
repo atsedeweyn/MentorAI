@@ -13,7 +13,7 @@ function typeText(text) {
         if (i < text.length) {
             output.value += text.charAt(i); // Add one character at a time
             i++;
-            setTimeout(typeCharacter, 50); // Adjust typing speed (50ms)
+            setTimeout(typeCharacter, 10); // Adjust typing speed (50ms)
         }
     }
 
