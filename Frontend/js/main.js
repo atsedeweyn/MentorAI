@@ -181,6 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatApp = new ChatApp();
 });
 
+// index.html js. 
 document.getElementById('start_button').addEventListener('click', (event) => {
     event.preventDefault(); 
     const url = document.getElementById('yt_link').value.trim(); 
