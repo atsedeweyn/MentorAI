@@ -14,5 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (input.value.trim() !== "") {
             button.disabled = false; 
         }
+        else {
+            button.disabled = true; 
+        }
     })
 })
