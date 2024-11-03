@@ -24,16 +24,11 @@ body {
 }
 
 header {
-<<<<<<< HEAD
     padding: 20px 0;
     width: 100%;
     text-align: center;
     background-color: #6EF085;
     color: black;
-=======
-    background-color: green;
-    color: white;
-    text-align: center;
 }
 
 nav {
@@ -54,7 +49,6 @@ nav ul li {
 nav a {
     color: white;
     text-decoration: none;
->>>>>>> 7f16417186e9f8ccfb943e26e10c7709c6601bfb
 }
 
 main {
