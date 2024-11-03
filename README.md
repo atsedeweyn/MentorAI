@@ -1,2 +1,2 @@
 # MentorAI
-your personal assistant website.
+your personal ai-assistant website.
